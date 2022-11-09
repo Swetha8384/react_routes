@@ -15,3 +15,28 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+// import { render } from "react-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import App from "./App";
+// import About from "./Component/About";
+// import Student from "./Component/Student";
+// import Employee from './Component/Employee'
+// import Login from './Component/Login'
+// import Register from './Component/Register'
+// render(
+  
+//   <BrowserRouter>
+   
+//     <Routes>
+//       <Route path="/" element={<App />} />
+//       <Route path="/about" element={<About />} />   
+//       <Route path="/Student" element={<Student />}/>
+//         <Route path='/Student/Register' element={<Login/>}/>
+//         <Route path='/Student/Login' element={<Register/>}/>
+//       <Route path="/Employee" element={<Employee />} />
+//     </Routes>
+    
+//   </BrowserRouter>,
+//   document.getElementById("root")
+// );
